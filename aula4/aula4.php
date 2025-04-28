@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title> Aula 4 PHP</title>
-    <link rel="stylesheet" href="estilo.css"/>
+    <link rel="stylesheet" href="_css/estilo.css"/>
 
 </head>
 <body>
@@ -24,6 +24,16 @@
             echo"$nome"." tem ".$idade." anos!";
             echo "<br>";
             echo "$nome tem $idade anos!";*/
+
+            $nome1 = "Pedro";
+            $nome2 = "Gabriella";
+
+            $idade = 19;
+            $idade2 = 19;
+
+            echo"$nome1"." tem $idade anos!";
+            echo "<br>";
+            echo "$nome2 tem $idade2 anos!";
 
     ?>
 </div>
